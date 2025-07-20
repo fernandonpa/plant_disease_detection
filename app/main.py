@@ -236,7 +236,7 @@ class_name = [
 
 # Main Pages
 if app_mode == "🏠 Home":
-    st.markdown('<h1 class="main-header">🌿🌿 Plant Disease Recognition System 🌿 🌿</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 class="main-header">🌿 Intelligent Plant Disease Recognition and Diagnosis System</h1>', unsafe_allow_html=True)
     
     # Create columns for better layout
     col1, col2, col3 = st.columns([1, 2, 1])
@@ -251,53 +251,53 @@ if app_mode == "🏠 Home":
         except:
             st.info("🖼️ Home image not found")
     
-    # Welcome section with distinct styling
-    st.markdown("""
-    <div class="welcome-box">
-        <h3>🎯 Welcome to our AI-Powered Plant Disease Detection System!</h3>
-        <p>Protect your crops with cutting-edge machine learning technology. Upload a plant image and get instant disease diagnosis with treatment recommendations.</p>
-    </div>
-    """, unsafe_allow_html=True)
+    # # Welcome section with distinct styling
+    # st.markdown("""
+    # <div class="welcome-box">
+    #     <h3>🎯 Welcome to our AI-Powered Plant Disease Detection System!</h3>
+    #     <p>Protect your crops with cutting-edge machine learning technology. Upload a plant image and get instant disease diagnosis with treatment recommendations.</p>
+    # </div>
+    # """, unsafe_allow_html=True)
     
-    # Feature highlights with improved contrast
-    col1, col2, col3 = st.columns(3)
+    # # Feature highlights with improved contrast
+    # col1, col2, col3 = st.columns(3)
     
-    with col1:
-        st.markdown("""
-        <div class="feature-box">
-            <h4>⚡ Lightning Fast</h4>
-            <p>Get results in seconds with our optimized AI model</p>
-        </div>
-        """, unsafe_allow_html=True)
+    # with col1:
+    #     st.markdown("""
+    #     <div class="feature-box">
+    #         <h4>⚡ Lightning Fast</h4>
+    #         <p>Get results in seconds with our optimized AI model</p>
+    #     </div>
+    #     """, unsafe_allow_html=True)
     
-    with col2:
-        st.markdown("""
-        <div class="feature-box">
-            <h4>🎯 High Accuracy</h4>
-            <p>95%+ accuracy with state-of-the-art deep learning</p>
-        </div>
-        """, unsafe_allow_html=True)
+    # with col2:
+    #     st.markdown("""
+    #     <div class="feature-box">
+    #         <h4>🎯 High Accuracy</h4>
+    #         <p>95%+ accuracy with state-of-the-art deep learning</p>
+    #     </div>
+    #     """, unsafe_allow_html=True)
     
-    with col3:
-        st.markdown("""
-        <div class="feature-box">
-            <h4>🔬 Expert Analysis</h4>
-            <p>Detailed disease information and treatment recommendations</p>
-        </div>
-        """, unsafe_allow_html=True)
+    # with col3:
+    #     st.markdown("""
+    #     <div class="feature-box">
+    #         <h4>🔬 Expert Analysis</h4>
+    #         <p>Detailed disease information and treatment recommendations</p>
+    #     </div>
+    #     """, unsafe_allow_html=True)
     
-    # Quick start guide with distinct background
-    st.markdown("""
-    <div class="quick-start">
-        <h2>🚀 Quick Start Guide</h2>
-        <ol style="color: #2d3436; font-size: 1.1rem; line-height: 1.8;">
-            <li><strong>📸 Upload:</strong> Navigate to 'Disease Recognition' and upload a clear image of the affected plant</li>
-            <li><strong>🔍 Analyze:</strong> Our AI will process the image and identify potential diseases</li>
-            <li><strong>📋 Review:</strong> Get detailed results with confidence scores and treatment recommendations</li>
-            <li><strong>💡 Act:</strong> Follow the suggested treatment plan for optimal plant health</li>
-        </ol>
-    </div>
-    """, unsafe_allow_html=True)
+    # # Quick start guide with distinct background
+    # st.markdown("""
+    # <div class="quick-start">
+    #     <h2>🚀 Quick Start Guide</h2>
+    #     <ol style="color: #2d3436; font-size: 1.1rem; line-height: 1.8;">
+    #         <li><strong>📸 Upload:</strong> Navigate to 'Disease Recognition' and upload a clear image of the affected plant</li>
+    #         <li><strong>🔍 Analyze:</strong> Our AI will process the image and identify potential diseases</li>
+    #         <li><strong>📋 Review:</strong> Get detailed results with confidence scores and treatment recommendations</li>
+    #         <li><strong>💡 Act:</strong> Follow the suggested treatment plan for optimal plant health</li>
+    #     </ol>
+    # </div>
+    # """, unsafe_allow_html=True)
 
 elif app_mode == "ℹ️ About":
     st.markdown('<h1 class="main-header">📊 About This Project</h1>', unsafe_allow_html=True)
