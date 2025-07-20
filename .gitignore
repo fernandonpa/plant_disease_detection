@@ -64,3 +64,7 @@ Thumbs.db
 # Dataset files (optional, uncomment if you don't want to track datasets)
 # data/
 # datasets/
+
+#poetry files
+pyproject.toml
+poetry.lock
